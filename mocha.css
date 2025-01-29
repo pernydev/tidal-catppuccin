@@ -1,0 +1,17 @@
+:root {
+    --ctp-base: #1e1e2e;
+    --ctp-mantle: #181825;
+    --ctp-crust: #11111b;
+    --ctp-text: #cdd6f4;
+    --ctp-subtext0: #bac2de;
+    --ctp-overlay2: #9399b2;
+    --ctp-surface1: #45475a;
+    --ctp-teal: #94e2d5;
+    --ctp-red: #f38ba8;
+    --ctp-peach: #fab387;
+    --ctp-yellow: #f9e2af;
+    --ctp-green: #a6e3a1;
+    --ctp-blue: #89b4fa;
+    --ctp-mauve: #cba6f7;
+    --ctp-rosewater: #f5e0dc;
+}
