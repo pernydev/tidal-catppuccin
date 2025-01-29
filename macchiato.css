@@ -16,4 +16,56 @@
     --ctp-rosewater: #f4dbd6;
 }
 
-@import("https://raw.githubusercontent.com/pernydev/tidal-catppuccin/main/core.css")
+:root {
+    --wave-color-solid-base-fill: var(--ctp-base);
+    --wave-color-solid-base-bright: var(--ctp-mantle);
+    --wave-color-solid-base-brighter: var(--ctp-crust);
+    --wave-color-solid-base-brightest: var(--ctp-surface1);
+  
+    --wave-color-solid-contrast-fill: var(--ctp-text);
+    --wave-color-solid-contrast-dark: var(--ctp-subtext0);
+    --wave-color-solid-contrast-darker: var(--ctp-crust);
+    --wave-color-solid-contrast-darkest: var(--ctp-overlay2);
+  
+    --wave-color-solid-accent-fill: var(--ctp-teal);
+    --wave-color-solid-accent-bright: color-mix(in srgb, var(--ctp-teal) 80%, transparent);
+    --wave-color-solid-accent-brighter: color-mix(in srgb, var(--ctp-teal) 93%, transparent);
+    --wave-color-solid-accent-dark: color-mix(in srgb, var(--ctp-teal) 66%, black);
+    --wave-color-solid-accent-darker: color-mix(in srgb, var(--ctp-teal) 53%, black);
+    --wave-color-solid-accent-darkest: color-mix(in srgb, var(--ctp-teal) 33%, black);
+  
+    --wave-color-solid-rainbow-red-fill: var(--ctp-red);
+    --wave-color-solid-rainbow-orange-fill: var(--ctp-peach);
+    --wave-color-solid-rainbow-yellow-fill: var(--ctp-yellow);
+    --wave-color-solid-rainbow-green-fill: var(--ctp-green);
+    --wave-color-solid-rainbow-blue-fill: var(--ctp-blue);
+    --wave-color-solid-rainbow-purple-fill: var(--ctp-mauve);
+  
+    --wave-color-solid-warning-fill: var(--ctp-red);
+    --wave-color-solid-warning-bright: color-mix(in srgb, var(--ctp-red) 80%, transparent);
+    --wave-color-solid-warning-brighter: color-mix(in srgb, var(--ctp-red) 93%, transparent);
+    --wave-color-solid-warning-dark: color-mix(in srgb, var(--ctp-red) 66%, black);
+    --wave-color-solid-warning-darker: color-mix(in srgb, var(--ctp-red) 53%, black);
+    --wave-color-solid-warning-darkest: color-mix(in srgb, var(--ctp-red) 33%, black);
+  
+    --wave-color-solid-special-fill: var(--ctp-rosewater);
+    --wave-color-solid-special-bright: color-mix(in srgb, var(--ctp-rosewater) 80%, transparent);
+    --wave-color-solid-special-brighter: color-mix(in srgb, var(--ctp-rosewater) 93%, transparent);
+    --wave-color-solid-special-dark: color-mix(in srgb, var(--ctp-rosewater) 66%, black);
+    --wave-color-solid-special-darker: color-mix(in srgb, var(--ctp-rosewater) 53%, black);
+    --wave-color-solid-special-darkest: color-mix(in srgb, var(--ctp-rosewater) 33%, black);
+  
+    --wave-color-opacity-base-fill-ultra-thin: color-mix(in srgb, var(--ctp-base) 5%, transparent);
+    --wave-color-opacity-base-fill-thin: color-mix(in srgb, var(--ctp-base) 20%, transparent);
+    --wave-color-opacity-base-fill-regular: color-mix(in srgb, var(--ctp-base) 40%, transparent);
+    --wave-color-opacity-base-fill-thick: color-mix(in srgb, var(--ctp-base) 60%, transparent);
+    --wave-color-opacity-base-fill-ultra-thick: color-mix(in srgb, var(--ctp-base) 80%, transparent);
+  
+    --wave-color-text-main: var(--wave-color-solid-contrast-fill);
+    --wave-color-text-secondary: var(--wave-color-solid-contrast-darker);
+    --wave-color-text-tertiary: var(--wave-color-solid-contrast-darkest);
+    --wave-color-text-disabled: var(--wave-color-solid-base-brightest);
+    --wave-color-text-placeholder: var(--wave-color-solid-base-brightest);
+    --wave-color-text-link: var(--wave-color-solid-accent-fill);
+    --wave-color-text-danger: var(--wave-color-solid-rainbow-red-fill);
+}  
