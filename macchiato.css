@@ -1,0 +1,19 @@
+:root {
+    --ctp-base: #24273a;
+    --ctp-mantle: #1e2030;
+    --ctp-crust: #181926;
+    --ctp-text: #cad3f5;
+    --ctp-subtext0: #a5adcb;
+    --ctp-overlay2: #939ab7;
+    --ctp-surface1: #494d64;
+    --ctp-teal: #8bd5ca;
+    --ctp-red: #ed8796;
+    --ctp-peach: #f5a97f;
+    --ctp-yellow: #eed49f;
+    --ctp-green: #a6da95;
+    --ctp-blue: #8aadf4;
+    --ctp-mauve: #c6a0f6;
+    --ctp-rosewater: #f4dbd6;
+}
+
+@import("https://raw.githubusercontent.com/pernydev/tidal-catppuccin/main/core.css")
